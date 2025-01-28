@@ -1142,6 +1142,7 @@ public class MainWindow extends javax.swing.JFrame {
             ProgressBar.setValue(CONTROLLER.getProgress(globalIndex));
             setNextSymbol();
         }
+        ShowStat.setState(false);
         stopTimer();
         Text.updateUI();
     }//GEN-LAST:event_formKeyPressed
